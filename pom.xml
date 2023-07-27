@@ -10,7 +10,20 @@
    <properties>
           <sonar.host.url>http://3.89.195.204:9000/</sonar.host.url>
         <sonar.login>25001a5fe6e516ffd44695ebfcbfd1510c9f5cfc</sonar.login>
-  </properties>
+</properties>
+<distributionManagement>
+	<repository>
+		<id>nexus</id>
+		<name>Durga IT Releases Nexus Repo</name>
+		<url>http://44.204.71.185:8081/repository/Durga-release/</url>
+	</repository>
+
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>Durga IT Snapshots Nexus Repo</name>
+		<url>http://44.204.71.185:8081/repository/Durga-Snapshot/</url>
+	</snapshotRepository>
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
