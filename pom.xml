@@ -8,8 +8,9 @@
   <name>HDFC Maven Webapp</name>
   <url>http://maven.apache.org</url>
    <properties>
-          <sonar.host.url>http://3.90.3.158:9000/</sonar.host.url>
-        <sonar.login>25001a5fe6e516ffd44695ebfcbfd1510c9f5cfc</sonar.login>
+          <sonar.host.url>http://44.202.110.226:9000/</sonar.host.url>
+        <sonar.login>admin</sonar.login>
+	<sonar.password>admin</sonar.password>
 </properties>
 <distributionManagement>
 	<repository>
